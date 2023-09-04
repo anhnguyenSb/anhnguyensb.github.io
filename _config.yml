@@ -29,15 +29,15 @@ title: MIGOI Games
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+#avatar: "/assets/img/avatar-icon.png"
 get-google-play: "/assets/img/google-play.png"
 get-apple: "/assets/img/apple.png"
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
+#round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+title-img: /assets/img/avatar-icon.png
 
 
 #####################################
@@ -50,9 +50,9 @@ round-avatar: true
 social-network-links:
   email: "chinhmigoi@gmail.com"
   rss: false  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: MIGOIGames
+#  facebook: MIGOIGames
 #  github: daattali
-  twitter: MIGOIGames
+#  twitter: MIGOIGames
 #  patreon: DeanAttali
   youtube: "@MIGOIGames"
 #  medium: yourname
@@ -61,7 +61,7 @@ social-network-links:
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-  instagram: MIGOIGames
+#  instagram: MIGOIGames
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -79,7 +79,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+#rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
