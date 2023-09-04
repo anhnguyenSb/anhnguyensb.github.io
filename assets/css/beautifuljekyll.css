@@ -502,16 +502,17 @@ footer .footer-custom-content {
   margin: 0 0.625rem;
 }
 .post-preview .post-entry {
-  width: 100%;
+  padding-left: 12rem;
+  height: 6rem;
 }
 .post-preview .post-image {
-  float: right;
-  margin-left: 0.625rem;
+  float: left;
+  margin-right: 0.625rem;
   height: 12rem;
   width: 12rem;
 }
 .post-preview .post-image {
-  filter: grayscale(40%);
+  filter: grayscale(0%);
 }
 .post-preview .post-image:hover {
   filter: grayscale(0%);
@@ -519,7 +520,26 @@ footer .footer-custom-content {
 .post-preview .post-image img {
   max-height: 100%;
   max-width: 100%;
+  border-radius: 10%;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
 }
+.get-it-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 3rem;
+  height: 3rem;
+}
+.get-it-btn {
+  height: 3rem;
+  width: 10.34rem;
+  margin-left: 10px;
+}
+.post-preview .get-it-btn img{
+}
+
 .post-preview .post-image-short {
   margin-top: -2.1875rem;
 }
