@@ -4,12 +4,7 @@
     "details": [
       {
         "appID": "6469309666.com.panthera.boxheadzombiesmustdie",
-        "paths": [
-          "/app.html",
-          "/app.html/*",
-          "/app",
-          "/app/*"
-        ]
+        "paths": ["*"]
       }
     ]
   }
