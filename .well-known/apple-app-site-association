@@ -1,11 +1,14 @@
 {
   "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "77JFGHGK85.com.panthera.boxheadzombiesmustdie",
-        "paths": ["*"]
-      }
-    ]
-  }
+      "details": [
+           {
+             "appIDs": [ "77JFGHGK85.com.panthera.boxheadzombiesmustdie"],
+             "components": [               
+               {
+                  "/": "*",
+               }
+             ]
+           }
+       ]
+   }
 }
