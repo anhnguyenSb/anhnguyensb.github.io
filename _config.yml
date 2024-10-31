@@ -275,6 +275,9 @@ defaults:
     values:
       layout: "page"
 
+include:
+  - .well-known
+
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
