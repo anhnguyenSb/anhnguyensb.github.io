@@ -7,7 +7,12 @@
         ],
         "components": [
           {
-            "/": "*"
+            "/": "*",
+            "comment": "Match domain root"
+          },
+          {
+            "/": "/soul-huntress-url/*",
+            "comment": "Match everything under /soul-huntress-url/"
           }
         ]
       }
